@@ -1,0 +1,94 @@
+.container {
+    border: solid 2px #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #dddddd98;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 4px 6px 20px rgba(0, 0, 0, 0.76);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+  width: 250px;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #df6514;
+  border-radius: 8px;
+  font-size: 16px;
+}
+input[type="submit"] {
+    width: 272px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #df6514;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #c75910;
+  }
+
+  input[type="submit"]:active {
+    background-color: #a1480d;}
+
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+body{
+    background-color: #8b9bf7;
+}
+h1{
+    font-family: serif
+}
+body{
+    background-image:url(img/layout-do-armazem.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+h1{
+   font-size:x-large;
+   font-style: italic;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow', sans-serif
+}
+
+ul{
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.507);
+  border-radius: 50px;
+  display: flex;
+  
+}
+
+li{
+  flex: auto
+  
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+
+}
+
+
+li a:hover {
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+  background-color: #0000006e; 
+}
